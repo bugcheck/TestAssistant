@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+	<PreferenceCategory 
+	    android:title="People">
+	    <CheckBoxPreference
+	        android:key="mobile_phone"
+	        android:title="Mobile Phone"
+	        android:summary="if insert mobile phone"
+	        android:defaultValue="true"/>
+	    <CheckBoxPreference
+	        android:key="home_phone"
+	        android:title="Home Phone"
+	        android:summary="if insert home phone"
+	        android:defaultValue="false"/>
+	    <CheckBoxPreference
+	        android:key="email_address"
+	        android:title="Email Address"
+	        android:summary="if insert email address"
+	        android:defaultValue="false"/>
+	    <EditTextPreference 
+	        android:key="sim_contacts_uri"
+	        android:title="SIM Contacts Uri"
+	        android:defaultValue="content://icc/adn/11"/>
+	    <EditTextPreference 
+	        android:key="uim_contacts_uri"
+	        android:title="UIM Contacts Uri"
+	        android:defaultValue="content://icc/adn/21"/>
+	</PreferenceCategory>
+	<PreferenceCategory 
+	    android:title="Messaging">
+	</PreferenceCategory>
+</PreferenceScreen>

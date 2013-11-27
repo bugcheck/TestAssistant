@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hint">输入一个数字</string>
+    <string name="app_name">测试助手</string>
+    <string name="preferences">自定义选项</string>
+    <string name="clear_info">清除屏显</string>
+    <string name="message">打印日志</string>
+    
+    <!-- Button Text -->
+    <string name="goToContacts">前往通讯录</string>
+    
+    <string name="add_call_logs">通话记录</string>
+    <string name="add_phone_contacts">本地联系人</string>
+    <string name="add_simcard_contacts">sim卡联系人</string>
+    <string name="add_mms">彩信</string>
+    <string name="add_sms_to_phone">手机短信</string>
+    <string name="add_sms_to_sim">sim卡短信</string>
+    
+    <string name="clear_phone_contacts">清除本地联系人</string>
+    <string name="clear_sim_contacts">清除sim卡联系人</string>
+    <string name="clear_uim_contacts">清除uim卡联系人</string>
+    <string name="clear_accounts_contacts">清除同步账户联系人</string>
+    
+	<string name="clear_sms_on_phone">清除手机上短信</string>
+	<string name="clear_sms_on_sim">清除sim卡短信</string>
+	<string name="clear_mms">清除彩信</string>
+	
+    
+    <string name="numberOfCallLogEntries">Number of call log entries to add:</string>
+    <string name="addedLogEntriesToast">Added %1$d call log entries.</string>
+    <string name="noLogEntriesToast">No entries in the call log yet.</string>
+    
+
+</resources>

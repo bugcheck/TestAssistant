@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hint">Input a number</string>
+    <string name="app_name">TEAssistant</string>
+    <string name="preferences">Preference</string>
+    <string name="clear_info">clear information</string>
+    <string name="message">information goes here</string>
+    
+    <!-- Button Text -->
+    <string name="goToContacts">Go to Contacts</string>
+    
+    <string name="add_call_logs">Call Log</string>
+    <string name="add_phone_contacts">Phone Contacts</string>
+    <string name="add_simcard_contacts">SimCard Contacts</string>
+    <string name="add_mms">Mms</string>
+	<string name="add_sms_to_phone">Sms to Phone</string>
+	<string name="add_sms_to_sim">Sms to SIM</string>
+    
+    <string name="clear_phone_contacts">Clear Phone Contacts</string>
+    <string name="clear_sim_contacts">Clear SIM Contacts</string>
+    <string name="clear_uim_contacts">Clear UIM Contacts</string>
+    <string name="clear_accounts_contacts">Clear Accounts Contacts</string>
+    
+	<string name="clear_sms_on_phone">Clear sms on phone</string>
+	<string name="clear_mms">Clear mms</string>
+	<string name="clear_sms_on_sim">Clear sms on SIM</string>
+	
+    <string name="empty">empty</string>
+    
+    <string name="numberOfCallLogEntries">Number of call log entries to add:</string>
+    <string name="addedLogEntriesToast">Added %1$d call log entries.</string>
+    <string name="noLogEntriesToast">No entries in the call log yet.</string>
+    
+	<string name="messages">9月10日讯上千条鳄鱼一起从水面中探出脑袋,漂在水面上,它们是在干啥?
+		昨日,江宁汤山鳄鱼生态园出现千条鳄鱼浮出水巡游的壮观场面,这一场面
+		被市民拍成照片,发到网上后引发众人热议,大家都在猜测鳄鱼群奇怪举动
+		背后的原因,其中有不少网友怀疑这是南京要地震的征兆。对此情况,南京
+		地震部门回应,近期不会发生地震。
+		千条鳄鱼浮出水面,它们这是要去开会吗?
+		“下午一进去,发现鳄鱼全都出来了,场面壮观的有些吓人。足足上千条
+		!”南京市民徐先生前日有幸坐着游览车,一路观看了南京最大的扬子锷基地
+		。在游览过程中,徐先生发现了一个奇怪的场景,在一条成年扬子鳄的带领下
+		,上千条鳄鱼浮出水面,这些鳄鱼大的百余斤,小的像条黑鱼,大大小小鳄鱼
+		在池内伸着脑袋,不知道在干些什么。“当时我们走近时,它们感觉到有动静
+		,就齐刷刷地钻进水里。看我们走远了,就再次一起浮出水面。”徐先生目睹
+		全过程,拍了一些图片,上传到网络上。不少网友看了图片后调侃者有之,惊
+		恐者有之,众说纷纭。有网友说:“它们这是要去开会吗?”也有网友惊呼:“动
+		物一起喘口气,应该叫对应的管理部门说说什么原因。”不少网友怀疑这是不
+		是南京要地震的征兆,有网友称:“是打群架还是做地球灾难的预告呢。”鳄鱼
+		集体浮出水面预警地震?南京市地震局辟谣对于众多网友认为鳄鱼集体浮出水
+		面是地震预警的问题,南京市地震局一名工作人员表示,根据地震台网最新监
+		测到的数据显示,南京近期不会发生地震。同时,类似鳄鱼集体浮出水面这样
+		的动物现象,他们也经常会收到市民反映,光凭蛤蟆、蝴蝶、蜻蜓、蚂蚁等动
+		物的聚集,就认为是地震的前兆并不严谨。很多时候,需要考虑气象、气候等
+		因素有关,市民不必见到此类现象就过于恐慌。
+		记者了解到,广大网友对鳄鱼出游现象如此关注,还与最近国内地震频发有一
+		定联系。例如,9月3日,苏州发生1.9级小震,虽然震级很小,但是震感却很明显
+		,而两天之后,山东省济宁市微山县、枣庄市滕州市与江苏省徐州市沛县交界
+		地区又发生3.2级地震。9月7日,在短短一小时之内,云南省境内发生两次5级
+		以上的破坏性地震。南京市地震局应急处副处长赵兵解释说,云南的两场地震
+		都属于内陆地震,发生地震的地方本身就是地震的高发地区,而苏州的地震震级
+		很小,徐州的地震属于地表震,大家完全不必恐慌。实际上,全球一年发生的5级
+		以上的地震都以千次计,根据统计,去年全球发生的5级以上的地震就达2600多次
+		,所以最近地震发生的频率不算异常。
+		园方解释鳄鱼天天都这样,是出来晒太阳的
+		记者昨日就网友关注的鳄鱼情况,与汤山鳄鱼生态园取得了联系,公园营销部
+		樊小姐告诉记者,生态园里的鳄鱼都是人工繁殖饲养的扬子鳄,徐先生看到的
+		鳄鱼群其实每天都会浮出水面,因为鳄鱼是冷血动物,它们是出来晒太阳的,
+		太阳一出来它们就会爬到岸边,直到太阳落山。每天如此,都好几年了。
+		樊小姐还说,目前园区共养殖鳄鱼5000条左右,现在养殖的鳄鱼中最长的也不过2米长。
+		据气象专家介绍,目前南京市正处于夏天向秋天过渡的阶段,这段时间天气变化
+		频繁,温度起伏也比较大。鳄鱼集体出水也与最近天气情况息息相关</string>
+</resources>

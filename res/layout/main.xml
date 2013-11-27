@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/goToContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:onClick="goToContacts"
+            android:text="@string/goToContacts" />
+    </RelativeLayout>
+
+	<ScrollView
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:orientation="vertical" >
+
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+	            <Button
+	                android:id="@+id/addPhoneContacts"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/add_phone_contacts" />
+
+	            <Button
+	                android:id="@+id/addSimCardContacts"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/add_simcard_contacts" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+	            <Button
+	                android:id="@+id/addCallLogs"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/add_call_logs" />
+
+	            <Button
+	                android:id="@+id/addMms"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/add_mms" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+	            <Button
+	                android:id="@+id/addSmsToPhone"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/add_sms_to_phone" />
+
+	            <Button
+	                android:id="@+id/addSmsToSim"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/add_sms_to_sim" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal"
+	            android:paddingTop="10dip" >
+
+	            <Button
+	                android:id="@+id/clearPhoneContacts"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/clear_phone_contacts" />
+
+	            <Button
+	                android:id="@+id/clearAccountContacts"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/clear_accounts_contacts" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+	            <Button
+	                android:id="@+id/clearSimContacts"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/clear_sim_contacts" />
+
+	            <Button
+	                android:id="@+id/clearUimContacts"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/clear_uim_contacts" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+	            <Button
+	                android:id="@+id/clearSmsOnPhone"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/clear_sms_on_phone" />
+
+	            <Button
+	                android:id="@+id/clearSmsOnSim"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/clear_sms_on_sim" />
+	        </LinearLayout>
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+	            <Button
+	                android:id="@+id/clearMms"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/clear_mms" />
+
+	            <Button
+	                android:id="@+id/empty"
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:layout_weight="1.0"
+	                android:onClick="onClick"
+	                android:text="@string/empty" />
+	        </LinearLayout>
+	        
+	        <TextView
+                android:id="@+id/infoTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/message" />
+
+	    </LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

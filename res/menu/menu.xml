@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/menu_preferences"
+	    android:title="@string/preferences"/>
+	<item android:id="@+id/menu_clearInfo"
+	    android:title="@string/clear_info"
+	    android:icon="@drawable/ic_menu_delete"/>
+</menu>
